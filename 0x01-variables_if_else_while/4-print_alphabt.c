@@ -6,17 +6,12 @@
  * Return: Aways 0 (Sucess)
  */
 int main(void)
-{
-	char ch = 'a';
-
-	while (ch <= 'z')
+{       char alph = ('a', alph <= 'z'; alph++)
 	{
-		if (ch != 'e' && ch != 'q')
+		if (alph != 'e' && alph != 'q')
 		{
-			putchar(ch);
+			putchar(alph);
 		}
-		ch++;
-	}
-	putchar('\n');
+	puchar('\n');
 	return (0);
 }
