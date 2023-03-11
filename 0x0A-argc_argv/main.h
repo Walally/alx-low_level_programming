@@ -5,6 +5,7 @@ ifndef MAIN_H
 #include <unistd.h>
 
 int _putchar(char c);
-int main(int argc, char *argv[]);
+int main(int __attribute__((__unused__)) argc, char *argv[]);
+
 
 #endif
